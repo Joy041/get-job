@@ -1,0 +1,23 @@
+/* .header-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(246, 253, 255);
+} */
+
+.header-link a{
+    margin-right: 35px;
+    font-size: 20px;
+    color: black;
+    border: 0;
+}
+
+.header-link a:hover{
+    color: black;
+    border: 0;
+}
+
+/* .header-btn{
+    font-size: 23px;
+    background-color: #9873FF;
+} */
