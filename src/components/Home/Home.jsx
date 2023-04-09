@@ -1,3 +1,4 @@
+import React from 'react';
 import HomeHeader from '../HomeHeader/HomeHeader';
 import JobCategory from '../JobCategory/JobCategory';
 
