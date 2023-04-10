@@ -1,6 +1,6 @@
 [
     {
-        "id": "1",
+        "id": 1,
         "name": "Software Engineer",
         "img": "http://s3.amazonaws.com/gt7sp-prod/decal/36/77/29/5773623600524297736_1.png?5e486a1dbe56448e7a2x",
         "company": "Google",
@@ -16,7 +16,7 @@
         "phone": "555-123-4567"
     },
     {
-        "id": "2",
+        "id": 2,
         "name": "Graphic Designer",
         "img": "https://th.bing.com/th/id/R.368a45f0f0f0341995c6ea71d60ea721?rik=G%2fhBK00ONxPcDw&riu=http%3a%2f%2fwww.logo-sheji.cn%2fwp-content%2fuploads%2f2020%2f7%2fby2e6z.png&ehk=xsQnVtMmcGg35SKmskURynaBdDq%2bvuFV79vUM6QHEkw%3d&risl=&pid=ImgRaw&r=0",
         "company": "Netflix",
@@ -32,7 +32,7 @@
         "phone": "555-987-6543"
     },
     {
-        "id": "3",
+        "id": 3,
         "name": "Senior Accountant",
         "img": "https://th.bing.com/th/id/R.5d20dcbebc6590fdbdebc709454096b6?rik=JTTr48ocq3Y%2bUA&pid=ImgRaw&r=0",
         "company": "Tesla",
@@ -48,7 +48,7 @@
         "phone": "555-487-5648"
     },
     {
-        "id": "4",
+        "id": 4,
         "name": "Marketing Manager",
         "img": "https://th.bing.com/th/id/R.a9bb130db07da8a3faa41434465f5ba5?rik=4y3yRkL397fiAg&pid=ImgRaw&r=0",
         "company": "Microsoft",
@@ -64,7 +64,7 @@
         "phone": "484-842-986"
     },
     {
-        "id": "5",
+        "id": 5,
         "name": "Human Resources Specialist",
         "img": "https://th.bing.com/th/id/R.505931e1ac467483bd183a25da888219?rik=CKOOXCXag0%2frVg&pid=ImgRaw&r=0",
         "company": "HR Solutions",
@@ -80,7 +80,7 @@
         "phone": "1284-544-7643"
     },
     {
-        "id": "6",
+        "id": 6,
         "name": "Outside Sales Representative",
         "img": "https://th.bing.com/th/id/R.827f6db7597765552052340bac0747df?rik=h7Lvc5wnebYmCQ&pid=ImgRaw&r=0",
         "company": "AirBnB",

@@ -1,35 +1,34 @@
-import React, { useEffect, useState } from 'react';
-import DisplayFeaturedJobs from '../DisplayFeaturedJobs/DisplayFeaturedJobs';
-import Details from '../Details/Details';
+import React, { createContext, useEffect, useState } from 'react';
+import { Link } from 'react-router-dom';
 
-const FeaturedJobs = () => {
-    const [featured, setFeatured] = useState([])
-    useEffect(() => {
-        fetch(`featuredjob.json`)
-            .then(res => res.json())
-            .then(data => setFeatured(data.slice(0, 4)))
-    }, [])
 
-    const viewDetails = id => {
-        console.log(id)
-        {
-            <Details id = {id}></Details>
-        }
-    }
+const FeaturedJobs = ({ feature }) => {
+    // console.log(feature)
+    const { img, name, company, address, salary, job_time, job_place, id } = feature;
+
+
+
+    // const viewDetails = id => {
+    //     console.log(id)
+    //     // setJobId(id)
+    // }
 
     return (
         <div>
-            <div className='text-center mt-32'>
-                <h2 className='text-5xl font-bold pb-4'>Featured Jobs</h2>
-                <p>Explore thousands of job opportunities with all the information you need. Its your future</p>
-            </div>
-            <div className='grid grid-cols-2 gap-7 mx-52 mt-8'>
-                {
-                    featured.map(feature => <DisplayFeaturedJobs key={feature.id} feature={feature} viewDetails = {viewDetails}></DisplayFeaturedJobs>)
-                }
-            </div>
-            <div className='text-center mt-10 mb-12'>
-                <button className='bg-indigo-400 text-white'>See All Jobs</button>
+            
+            <div className='border-solid border-2 border-gray-100 rounded-xl ps-10 pt-10 pb-10'>
+                <img className='w-28 h-20' src={img} alt="" />
+                <p className='pt-8 pb-2 text-2xl font-semibold'>{name}</p>
+                <p className='text-xl text-gray-500'>{company}</p>
+                <button className='mt-4 mb-4 me-4 text-indigo-500 bg-white border-indigo-500'>{job_place}</button>
+                <button className='text-indigo-500 bg-white border-indigo-500'>{job_time}</button>
+                <div className='flex mb-6'>
+                    <p className='text-xl'>{address}</p>
+                    <p className='text-xl ms-6'>{salary}</p>
+                </div>
+                <div>
+                   <Link to={`/details/${id}`}><button className='bg-indigo-400 text-white'> View details</button></Link>
+                </div>
             </div>
         </div>
     );
