@@ -1,8 +1,8 @@
 import React from 'react';
 
-const DisplayJobCategory = (props) => {
-    console.log(props.category)
-    const { id, name, title, img } = props.category;
+const DisplayJobCategory = ({category}) => {
+    // console.log(category)
+    const { id, name, title, img } = category;
     return (
         <div >
             <div className='bg-cyan-50 p-8 rounded-lg ps-10'>
