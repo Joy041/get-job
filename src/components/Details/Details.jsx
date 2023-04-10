@@ -3,6 +3,7 @@ import React, { useContext, useEffect, useState } from 'react';
 // import { getShoppingCart } from '../../utilities/FakeDb';
 import { useParams, useLoaderData } from 'react-router-dom';
 import './Details.css'
+import ApplyCart from '../ApplyCart/ApplyCart';
 
 const Details = () => {
     const [details, setDetails] = useState({});
@@ -27,17 +28,19 @@ const Details = () => {
     return (
         <div>
             <div>
-                <p className='py-36 text-center text-3xl font-bold bg-cyan-50 px-5'>Job Details</p>
+                <p className='py-24 text-center text-3xl font-bold bg-cyan-50 px-5'>Job Details</p>
             </div>
-            <div className='details-container'>
-                <div className='mt-32'>
-                    <p>Job Description :{description}</p>
-                    <p>Job Responsibility : {responsibility}</p>
-                    <p>Educational Requirements: : {education}</p>
-                    <p>Experiences : {experiences}</p>
+            <div className='mx-48 details-container'>
+                <div className='mt-32 text-base'>
+                    <p className='pb-6'><span className='font-bold'>Job Description</span> : <span className='text-gray-500'>{description}</span></p>
+                    <p className='pb-6'><span className='font-bold'>Job Responsibility</span> : <span className='text-gray-500'>{responsibility}</span></p>
+                    <p className='pb-6'><span className='font-bold'>Educational Requirements</span> :  <br /> <br /><span className='text-gray-500'>{education}</span></p>
+                    <p><span className='font-bold'>Experiences</span> : <br /><br /><span className='text-gray-500'>{experiences}</span></p>
                 </div>
                 <div>
-                    <h2>cart place</h2>
+                    {
+                        <ApplyCart key={details.id} details = {details}></ApplyCart>
+                    }
                 </div>
             </div>
         </div>
