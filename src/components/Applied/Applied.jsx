@@ -4,7 +4,9 @@ import ReviewApplied from '../ReviewApplied/ReviewApplied';
 
 const Applied = () => {
     const jobData = useLoaderData()
+    const data = jobData;
     console.log(jobData)
+
     return (
         <div>
             <div>
@@ -18,7 +20,7 @@ const Applied = () => {
                     </div>
                 </div>
                 {
-                    jobData.map(job => <ReviewApplied key={job.id} job={job}></ReviewApplied>)
+                    data.map(job => <ReviewApplied key={job.id} job={job}></ReviewApplied>)
                 }
             </div>
         </div>
