@@ -1,6 +1,6 @@
 [
     {
-        "id": 1,
+        "id": "1",
         "name": "Software Engineer",
         "img": "http://s3.amazonaws.com/gt7sp-prod/decal/36/77/29/5773623600524297736_1.png?5e486a1dbe56448e7a2x",
         "company": "Google",
@@ -13,10 +13,11 @@
         "education": "Education and Experience: 1) Bachelor's or higher degree in Computer Science, Engineering, or related field . 2) 3+ years of experience in software development",
         "experiences": "Required Skills and Experience: 1) Strong knowledge of programming languages such as Java, Python, or C++. 2) Experience with software development tools such as Git, JIRA, or Jenkins. 3) Familiarity with Agile methodologies and software development life cycle",
         "email": "jobs@abcinc.com",
-        "phone": "555-123-4567"
+        "phone": "555-123-4567",
+        "quantity": 0
     },
     {
-        "id": 2,
+        "id": "2",
         "name": "Graphic Designer",
         "img": "https://th.bing.com/th/id/R.368a45f0f0f0341995c6ea71d60ea721?rik=G%2fhBK00ONxPcDw&riu=http%3a%2f%2fwww.logo-sheji.cn%2fwp-content%2fuploads%2f2020%2f7%2fby2e6z.png&ehk=xsQnVtMmcGg35SKmskURynaBdDq%2bvuFV79vUM6QHEkw%3d&risl=&pid=ImgRaw&r=0",
         "company": "Netflix",
@@ -29,10 +30,11 @@
         "education": "Education and Experience: 1) Bachelor's or higher degree in Graphic Design, Visual Communication, or related field. 2) 2+ years of experience in graphic design",
         "experiences": "Required Skills and Experience: 1) Proficiency in Adobe Creative Suite software, including Photoshop, Illustrator, and InDesign. 2) Understanding of design principles and typography. 3) Familiarity with UI/UX design principles",
         "email": "jobs@xyzinc.com",
-        "phone": "555-987-6543"
+        "phone": "555-987-6543",
+        "quantity": 0
     },
     {
-        "id": 3,
+        "id": "3",
         "name": "Senior Accountant",
         "img": "https://th.bing.com/th/id/R.5d20dcbebc6590fdbdebc709454096b6?rik=JTTr48ocq3Y%2bUA&pid=ImgRaw&r=0",
         "company": "Tesla",
@@ -45,10 +47,11 @@
         "education": "Education and Experience: 1) Bachelor's degree in Accounting or Finance. 2) 5+ years of experience in accounting, preferably in a senior role. 3) CPA certification preferred",
         "experiences": "Required Skills and Experience: 1) Strong knowledge of accounting principles and practices. 2) Proficient in Microsoft Excel and accounting software. 3) Excellent analytical and problem-solving skills",
         "email": "jobs@financialsolutions.com",
-        "phone": "555-487-5648"
+        "phone": "555-487-5648",
+        "quantity": 0
     },
     {
-        "id": 4,
+        "id": "4",
         "name": "Marketing Manager",
         "img": "https://th.bing.com/th/id/R.a9bb130db07da8a3faa41434465f5ba5?rik=4y3yRkL397fiAg&pid=ImgRaw&r=0",
         "company": "Microsoft",
@@ -61,10 +64,11 @@
         "education": "Education and Experience: 1) Bachelor's or higher degree in Marketing, Business Administration, or related field. 2) 5+ years of experience in marketing, with at least 2 years in a managerial role",
         "experiences": "Required Skills and Experience: 1) Demonstrated success in developing and implementing marketing strategies. 2) Excellent leadership and management skills. 3) Strong analytical and problem-solving skills",
         "email": "jobs@marketingco.com",
-        "phone": "484-842-986"
+        "phone": "484-842-986",
+        "quantity": 0
     },
     {
-        "id": 5,
+        "id": "5",
         "name": "Human Resources Specialist",
         "img": "https://th.bing.com/th/id/R.505931e1ac467483bd183a25da888219?rik=CKOOXCXag0%2frVg&pid=ImgRaw&r=0",
         "company": "HR Solutions",
@@ -77,10 +81,11 @@
         "education": "Education and Experience: 1) Bachelor's or higher degree in Human Resources, Business Administration, or related field. 2) 2+ years of experience in human resources",
         "experiences": "Required Skills and Experience: 1) Strong knowledge of labor laws and regulations. 2) Excellent organizational and time management skills. 3) Ability to maintain strict confidentiality",
         "email": "jobs@hrsolutions.com",
-        "phone": "1284-544-7643"
+        "phone": "1284-544-7643",
+        "quantity": 0
     },
     {
-        "id": 6,
+        "id": "6",
         "name": "Outside Sales Representative",
         "img": "https://th.bing.com/th/id/R.827f6db7597765552052340bac0747df?rik=h7Lvc5wnebYmCQ&pid=ImgRaw&r=0",
         "company": "AirBnB",
@@ -93,6 +98,7 @@
         "education": "Education and Experience: 1) High school diploma or equivalent. 2) 2+ years of experience in outside sales, preferably in a B2B environment",
         "experiences": "Required Skills and Experience: 1) Excellent communication and interpersonal skills. 2) Strong negotiation and closing skills. 3) Ability to work independently and manage your own schedule",
         "email": "jobs@salessolutions.com",
-        "phone": "854-565-1284"
+        "phone": "854-565-1284",
+        "quantity": 0
     }
 ]

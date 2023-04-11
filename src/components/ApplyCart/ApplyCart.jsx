@@ -2,8 +2,9 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCircleDollarToSlot, faCalendarAlt, faPhone, faEnvelope, faLocationDot } from '@fortawesome/free-solid-svg-icons'
+import { addToDb } from '../../utilities/FakeDb';
 
-const ApplyCart = ({ details }) => {
+const ApplyCart = ({ details, addAppliedData, data }) => {
     console.log(details)
     const { salary, name, phone, email, address } = details;
     return (
@@ -30,7 +31,7 @@ const ApplyCart = ({ details }) => {
              <FontAwesomeIcon className='pe-2' icon={faLocationDot} />
                 <span className='text-base font-medium'>Address</span> : <span className='text-base text-gray-500'>{address}</span>
              </p>
-             <Link to = {'/applied'}><button className='bg-indigo-400 text-white mt-6 px-24'>Apply Now</button></Link>
+             <Link to = {'/applied'}><button onClick={() => addAppliedData(details)} className='bg-indigo-400 text-white mt-6 px-20'>Apply Now</button></Link>
         </div>
     );
 };
