@@ -17,6 +17,12 @@
     border: 0;
 }
 
+@media only screen and (max-width: 600px) {
+    .header-link{
+        margin-top: 25px;
+    }
+}
+
 /* .header-btn{
     font-size: 23px;
     background-color: #9873FF;

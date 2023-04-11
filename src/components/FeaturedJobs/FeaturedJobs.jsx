@@ -1,4 +1,4 @@
-import React, { createContext, useEffect, useState } from 'react';
+import React from 'react';
 import { Link } from 'react-router-dom';
 
 
@@ -14,8 +14,7 @@ const FeaturedJobs = ({ feature }) => {
     // }
 
     return (
-        <div>
-            
+        <div className='mt-5 md:mt-0'>      
             <div className='border-solid border-2 border-gray-100 rounded-xl ps-10 pt-10 pb-10'>
                 <img className='w-28 h-20' src={img} alt="" />
                 <p className='pt-8 pb-2 text-2xl font-semibold'>{name}</p>

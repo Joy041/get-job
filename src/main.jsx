@@ -13,11 +13,13 @@ import Applied from './components/Applied/Applied';
 import Blog from './components/Blog/Blog';
 import Details from './components/Details/Details';
 import appliedJobLoader from './Loader/appliedJobLoader';
+import Error from './components/Error/Error';
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <Main></Main>,
+    errorElement: <Error></Error>,
     children: [
       {
         path: '/',
