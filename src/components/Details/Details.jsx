@@ -82,7 +82,7 @@ const Details = () => {
                 </div>
                 <div>
                     {
-                        <ApplyCart key={details.id} details = {details} data = {data} addAppliedData = {addAppliedData}></ApplyCart>
+                        <ApplyCart key={details.id} details = {details} addAppliedData = {addAppliedData}></ApplyCart>
                     }
                 </div>
             </div>

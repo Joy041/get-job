@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCircleDollarToSlot, faCalendarAlt, faPhone, faEnvelope, faLocationDot } from '@fortawesome/free-solid-svg-icons'
 import { addToDb } from '../../utilities/FakeDb';
 
-const ApplyCart = ({ details, addAppliedData, data }) => {
+const ApplyCart = ({ details, addAppliedData }) => {
     console.log(details)
     const { salary, name, phone, email, address } = details;
     return (
