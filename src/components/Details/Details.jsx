@@ -1,10 +1,8 @@
-import React, { useContext, useEffect, useState } from 'react';
-// import { IdContext } from '../FeaturedJobs/FeaturedJobs';
-// import { getShoppingCart } from '../../utilities/FakeDb';
+import React, { useEffect, useState } from 'react';
 import { useParams, useLoaderData } from 'react-router-dom';
 import './Details.css'
 import ApplyCart from '../ApplyCart/ApplyCart';
-import { addToDb, getShoppingCart } from '../../utilities/FakeDb';
+import { addToDb} from '../../utilities/FakeDb';
 
 const Details = () => {
     const [details, setDetails] = useState({});
@@ -17,8 +15,6 @@ const Details = () => {
 
 
     const data = useLoaderData()
-    // console.log(data)
-    // setDetails(data)
 
     useEffect(() => {
         if (data) {
@@ -27,21 +23,6 @@ const Details = () => {
         }
     }, [])
 
-    // useEffect(()=> {
-    //     const storeApplyData = getShoppingCart();
-    //     console.log(storeApplyData)
-    //     const saveApply = [];
-
-    //     for (const id in storeApplyData){
-    //         const addedApply = data.find( dt => dt.id === id)
-    //         if(addedApply){
-    //             const quantity = storeApplyData[id];
-    //             addedApply.quantity = quantity;
-    //             saveApply.push(addedApply);
-    //         }
-    //     }
-    //     setApply(saveApply)
-    // },[data])
 
     const { description, responsibility, education, experiences } = details;
     console.log(details)

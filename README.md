@@ -7,3 +7,5 @@
 # 4. If you click on the Apply Now button, you will be applied to that job and at the same time, you will be taken to the Applied Job page and it will be shown which jobs have been applied for so far.
 
 # 5. In addition to these, a chart in Statistics and answers to some questions have been given in the Blog. And 404 warning has been set.
+
+# Live Site : https://adorable-semifreddo-f3dba2.netlify.app/applied

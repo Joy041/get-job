@@ -4,8 +4,6 @@ import ReviewApplied from '../ReviewApplied/ReviewApplied';
 
 const Applied = () => {
     const jobData = useLoaderData()
-    // const data = jobData;
-    // console.log(jobData)
 
     return (
         <div>

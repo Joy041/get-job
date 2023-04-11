@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import HomeHeader from '../HomeHeader/HomeHeader';
 import JobCategory from '../JobCategory/JobCategory';
 import FeaturedJobs from '../FeaturedJobs/FeaturedJobs';

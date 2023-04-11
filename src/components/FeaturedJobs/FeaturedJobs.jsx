@@ -3,15 +3,7 @@ import { Link } from 'react-router-dom';
 
 
 const FeaturedJobs = ({ feature }) => {
-    // console.log(feature)
     const { img, name, company, address, salary, job_time, job_place, id } = feature;
-
-
-
-    // const viewDetails = id => {
-    //     console.log(id)
-    //     // setJobId(id)
-    // }
 
     return (
         <div className='mt-5 md:mt-0'>      
