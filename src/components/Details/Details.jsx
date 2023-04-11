@@ -27,21 +27,21 @@ const Details = () => {
         }
     }, [])
 
-    useEffect(()=> {
-        const storeApplyData = getShoppingCart();
-        console.log(storeApplyData)
-        const saveApply = [];
+    // useEffect(()=> {
+    //     const storeApplyData = getShoppingCart();
+    //     console.log(storeApplyData)
+    //     const saveApply = [];
 
-        for (const id in storeApplyData){
-            const addedApply = data.find( dt => dt.id === id)
-            if(addedApply){
-                const quantity = storeApplyData[id];
-                addedApply.quantity = quantity;
-                saveApply.push(addedApply);
-            }
-        }
-        setApply(saveApply)
-    },[data])
+    //     for (const id in storeApplyData){
+    //         const addedApply = data.find( dt => dt.id === id)
+    //         if(addedApply){
+    //             const quantity = storeApplyData[id];
+    //             addedApply.quantity = quantity;
+    //             saveApply.push(addedApply);
+    //         }
+    //     }
+    //     setApply(saveApply)
+    // },[data])
 
     const { description, responsibility, education, experiences } = details;
     console.log(details)
