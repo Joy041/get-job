@@ -8,4 +8,4 @@
 
 # 5. In addition to these, a chart in Statistics and answers to some questions have been given in the Blog. And 404 warning has been set.
 
-# Live Site : https://adorable-semifreddo-f3dba2.netlify.app/applied
+# Live Site : https://adorable-semifreddo-f3dba2.netlify.app/statistics
