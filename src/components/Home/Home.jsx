@@ -1,10 +1,11 @@
-import React from 'react';
+import React, { useState } from 'react';
 import HomeHeader from '../HomeHeader/HomeHeader';
 import JobCategory from '../JobCategory/JobCategory';
 import FeaturedJobs from '../FeaturedJobs/FeaturedJobs';
 import { useLoaderData } from 'react-router-dom';
 
 const Home = () => {
+    const [show, setShow] = useState(false)
     const featured = useLoaderData();
 
     
@@ -19,11 +20,11 @@ const Home = () => {
                 </div>
                 <div className='md:grid md:grid-cols-2 md:gap-7 md:mx-52 mt-8'>
                     {
-                        featured.map(feature => <FeaturedJobs key={feature.id} feature={feature}></FeaturedJobs>)
+                        featured.slice(0, show ? 6 : 4).map(feature => <FeaturedJobs key={feature.id} feature={feature}></FeaturedJobs>)
                     }
                 </div>
                 <div className='text-center mt-10 mb-12'>
-                    <button className='bg-indigo-400 text-white'>See All Jobs</button>
+                    <button onClick={() => setShow(!show)} className='bg-indigo-400 text-white'>{show ? 'Short Job List' : 'See All Jobs'}</button>
                 </div>
             </div>
         </div>
